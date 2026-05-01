@@ -150,9 +150,14 @@ h3,
   display: block;
   width: 44px;
   height: 44px;
+  aspect-ratio: 1 / 1;
   border-radius: 50%;
+  -webkit-border-radius: 50%;
+  clip-path: circle(50%);
+  -webkit-clip-path: circle(50%);
   object-fit: cover;
   overflow: hidden;
+  flex-shrink: 0;
 }
 
 .logo-mark {
