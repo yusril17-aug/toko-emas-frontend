@@ -146,6 +146,15 @@ h3,
   color: var(--color-surface);
 }
 
+.logo-image {
+  display: block;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
 .logo-mark {
   display: grid;
   place-items: center;
