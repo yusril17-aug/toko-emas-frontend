@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="NAFI GOLD — toko perhiasan emas premium, investasi batangan, dan konsultasi kadar emas." />
+  <title>NAFI GOLD | Perhiasan Emas Premium</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar" id="navbar" aria-label="Navigasi utama">
+      <a href="#beranda" class="logo" aria-label="Beranda NAFI GOLD">
+        <img
+          class="logo-image"
+          src="assets/logo-nafi-gold.png"
+          alt="Logo NAFI GOLD"
+          width="44"
+          height="44"
+        />
+        <span class="logo-text">NAFI GOLD</span>
+      </a>
+      <button type="button" class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Buka menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-menu" id="navMenu">
+        <ul class="nav-links">
+          <li><a href="#katalog">Katalog</a></li>
+          <li><a href="#harga-hari-ini">Harga Hari Ini</a></li>
+          <li><a href="#simulasi">Simulasi</a></li>
+          <li><a href="#kontak">Kontak</a></li>
+        </ul>
+        <a class="btn btn--whatsapp" href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="beranda">
+    <section class="hero">
+      <div class="hero__overlay"></div>
+      <div class="hero__content">
+        <p class="hero__eyebrow">Investasi &amp; warisan keluarga</p>
+        <h1 class="hero__title">Emas Murni, Desain Abadi</h1>
+        <p class="hero__lead">
+          Perhiasan dan batangan emas bersertifikat dengan transparansi harga harian.
+          Kami mendampingi Anda memilih kadar yang tepat untuk koleksi pribadi maupun portofolio jangka panjang.
+        </p>
+        <a href="#katalog" class="btn btn--primary">Lihat Koleksi</a>
+      </div>
+    </section>
+
+    <section class="section section--price" id="harga-hari-ini" aria-labelledby="price-heading">
+      <div class="container">
+        <header class="section__header">
+          <h2 id="price-heading" class="section__title">Harga Emas Batangan Hari Ini</h2>
+          <p class="section__subtitle">Referensi ritel per gram (simulasi data statis, tidak mengikat transaksi).</p>
+        </header>
+        <div class="table-wrap">
+          <table class="price-table">
+            <caption class="visually-hidden">Tabel harga emas batangan</caption>
+            <thead>
+              <tr>
+                <th scope="col">Jenis</th>
+                <th scope="col">Berat</th>
+                <th scope="col">Harga / unit</th>
+                <th scope="col">Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Logam Mulia Antam</td>
+                <td>1 g</td>
+                <td>Rp 1.245.000</td>
+                <td><span class="badge badge--up">Tersedia</span></td>
+              </tr>
+              <tr>
+                <td>Logam Mulia Antam</td>
+                <td>5 g</td>
+                <td>Rp 6.175.000</td>
+                <td><span class="badge badge--up">Tersedia</span></td>
+              </tr>
+              <tr>
+                <td>Logam Mulia Antam</td>
+                <td>10 g</td>
+                <td>Rp 12.320.000</td>
+                <td><span class="badge badge--neutral">Pre-order</span></td>
+              </tr>
+              <tr>
+                <td>Mini gold bar koleksi</td>
+                <td>0,5 g</td>
+                <td>Rp 685.000</td>
+                <td><span class="badge badge--up">Tersedia</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="price-note">Update simulasi: 1 Mei 2026, pukul 09.00 WIB. Harga akhir mengikuti konfirmasi kasir.</p>
+      </div>
+    </section>
+
+    <section class="section section--catalog" id="katalog" aria-labelledby="catalog-heading">
+      <div class="container">
+        <header class="section__header">
+          <h2 id="catalog-heading" class="section__title">Katalog Pilihan</h2>
+          <p class="section__subtitle">Enam koleksi unggulan dengan finishing poles premium.</p>
+        </header>
+        <div class="product-grid">
+          <article class="product-card">
+            <div class="product-card__media">
+              <img src="https://placehold.co/400x480/2a2a2a/D4AF37?text=Cincin+18K" alt="Cincin emas 18 karat model klasik" width="400" height="480" loading="lazy" />
+            </div>
+            <div class="product-card__body">
+              <h3 class="product-card__name">Cincin Emas 18K</h3>
+              <p class="product-card__meta"><span>4,2 gram</span></p>
+              <p class="product-card__price">Rp 5.890.000</p>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-card__media">
+              <img src="https://placehold.co/400x480/252525/D4AF37?text=Gelang+17K" alt="Gelang emas 17 karat rantai halus" width="400" height="480" loading="lazy" />
+            </div>
+            <div class="product-card__body">
+              <h3 class="product-card__name">Gelang Rantai 17K</h3>
+              <p class="product-card__meta"><span>8,5 gram</span></p>
+              <p class="product-card__price">Rp 9.450.000</p>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-card__media">
+              <img src="https://placehold.co/400x480/1f1f1f/D4AF37?text=Kalung+18K" alt="Kalung emas 18 karat dengan liontin minimalis" width="400" height="480" loading="lazy" />
+            </div>
+            <div class="product-card__body">
+              <h3 class="product-card__name">Kalung Minimalis 18K</h3>
+              <p class="product-card__meta"><span>6,1 gram</span></p>
+              <p class="product-card__price">Rp 7.120.000</p>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-card__media">
+              <img src="https://placehold.co/400x480/2c2c2c/D4AF37?text=Anting+18K" alt="Anting emas 18 karat stud bulat" width="400" height="480" loading="lazy" />
+            </div>
+            <div class="product-card__body">
+              <h3 class="product-card__name">Anting Stud 18K</h3>
+              <p class="product-card__meta"><span>2,4 gram</span></p>
+              <p class="product-card__price">Rp 3.280.000</p>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-card__media">
+              <img src="https://placehold.co/400x480/232323/D4AF37?text=Liontin+24K" alt="Liontin emas 24 karat motif daun" width="400" height="480" loading="lazy" />
+            </div>
+            <div class="product-card__body">
+              <h3 class="product-card__name">Liontin Daun 24K</h3>
+              <p class="product-card__meta"><span>3,0 gram</span></p>
+              <p class="product-card__price">Rp 4.560.000</p>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-card__media">
+              <img src="https://placehold.co/400x480/282828/D4AF37?text=Set+Gift+18K" alt="Set perhiasan emas 18 karat hadiah" width="400" height="480" loading="lazy" />
+            </div>
+            <div class="product-card__body">
+              <h3 class="product-card__name">Set Hadiah 18K</h3>
+              <p class="product-card__meta"><span>12,0 gram</span></p>
+              <p class="product-card__price">Rp 14.200.000</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--edu" aria-labelledby="edu-heading">
+      <div class="container container--narrow">
+        <header class="section__header">
+          <h2 id="edu-heading" class="section__title">Memahami Kadar Emas</h2>
+          <p class="section__subtitle">Kadar menentukan kekerasan warna dan kegunaan perhiasan sehari-hari.</p>
+        </header>
+        <div class="edu-grid">
+          <div class="edu-card">
+            <h3 class="edu-card__title">17K (70,8% emas)</h3>
+            <p>Campuran logam lebih banyak sehingga lebih keras dan tahan gores untuk gelang atau cincin yang sering dipakai aktivitas ringan.</p>
+          </div>
+          <div class="edu-card">
+            <h3 class="edu-card__title">18K (75% emas)</h3>
+            <p>Standar populer perhiasan premium: keseimbangan antara warna kuning emas yang kaya dan daya tahan untuk koleksi harian maupun acara formal.</p>
+          </div>
+          <div class="edu-card">
+            <h3 class="edu-card__title">24K (99,9% emas)</h3>
+            <p>Emas murni paling lunak dan paling kaya warnanya; ideal untuk investasi batangan, liontin tipis, atau koleksi yang minim benturan.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--simulasi" id="simulasi" aria-labelledby="sim-heading">
+      <div class="container container--narrow">
+        <header class="section__header">
+          <h2 id="sim-heading" class="section__title">Simulasi Estimasi</h2>
+          <p class="section__subtitle">Hitung perkiraan nilai ritel berat × harga referensi per gram (angka contoh, bukan penawaran resmi).</p>
+        </header>
+        <form class="sim-form" id="simForm" novalidate>
+          <label class="sim-field">
+            <span>Berat emas (gram)</span>
+            <input type="number" id="simWeight" name="weight" min="0.1" step="0.1" value="5" inputmode="decimal" />
+          </label>
+          <label class="sim-field">
+            <span>Harga per gram (Rp)</span>
+            <input type="number" id="simPricePerGram" name="pricePerGram" min="1" step="1000" value="1245000" inputmode="numeric" />
+          </label>
+          <button type="submit" class="btn btn--primary btn--block">Hitung estimasi</button>
+        </form>
+        <p class="sim-result" id="simResult" role="status" aria-live="polite">Estimasi: Rp 6.225.000 (belum termasuk biaya cetak atau markup koleksi).</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="kontak">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <img
+          class="logo-image logo-image--footer"
+          src="assets/logo-nafi-gold.png"
+          alt="Logo NAFI GOLD"
+          width="52"
+          height="52"
+        />
+        <p class="footer__tagline">NAFI GOLD — emas berintegritas sejak 2020.</p>
+      </div>
+      <div>
+        <h3 class="footer__heading">Alamat</h3>
+        <p>Jl. Melati Raya No. 88, Lt. 1, Kebayoran Baru<br />Jakarta Selatan 12130</p>
+      </div>
+      <div>
+        <h3 class="footer__heading">Jam operasional</h3>
+        <p>Senin–Jumat: 10.00–19.00 WIB<br />Sabtu: 10.00–17.00 WIB<br />Minggu &amp; libur nasional: tutup</p>
+      </div>
+      <div>
+        <h3 class="footer__heading">Media sosial</h3>
+        <ul class="footer__social">
+          <li><a href="#" aria-label="Instagram NAFI GOLD">Instagram</a></li>
+          <li><a href="#" aria-label="Facebook NAFI GOLD">Facebook</a></li>
+          <li><a href="#" aria-label="YouTube NAFI GOLD">YouTube</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bar">
+      <div class="container footer__bar-inner">
+        <small>&copy; 2026 NAFI GOLD. Copyright.</small>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
