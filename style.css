@@ -111,9 +111,27 @@ h3,
   justify-content: space-between;
   gap: 1.5rem;
   min-height: var(--header-h);
-  width: min(1120px, 100% - 2.5rem);
-  margin-inline: auto;
+  width: 100%;
+  padding-inline: 1rem;
   padding-block: 0.5rem;
+}
+
+@media (min-width: 600px) {
+  .navbar {
+    padding-inline: 1.5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar {
+    padding-inline: 4rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .navbar {
+    padding-inline: 5%;
+  }
 }
 
 .logo {
